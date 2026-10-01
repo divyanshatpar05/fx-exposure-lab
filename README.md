@@ -4,11 +4,15 @@
 
 FX Exposure Lab is a full-stack analytics app. It models how currency moves, hedging programs and interest-rate shocks flow through a multinational's operating income, EPS and valuation. It uses live ECB exchange rates and a Monte Carlo engine with correlated currencies.
 
+### 🔗 Live demo: **[fx-exposure-lab.onrender.com](https://fx-exposure-lab.onrender.com)**
+<sub>Hosted on Render's free tier. The first load after a quiet period can take ~30–50s while the server wakes up.</sub>
+
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+[![CI](https://github.com/divyanshatpar05/fx-exposure-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/divyanshatpar05/fx-exposure-lab/actions/workflows/ci.yml)
 
 > _Add a screenshot or GIF here: `docs/demo.gif`_
 
