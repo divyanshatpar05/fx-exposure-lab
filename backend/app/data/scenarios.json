@@ -1,0 +1,45 @@
+{
+  "_note": "Approximate peak-to-trough moves of each currency against USD over the episode window. Negative = foreign currency weakened vs USD. Rounded for illustration.",
+  "scenarios": [
+    {
+      "id": "gfc-2008", "name": "Global Financial Crisis", "period": "Jul 2008 – Mar 2009", "rate_bps": -200,
+      "description": "Flight to the dollar and yen as global credit froze; commodity and EM currencies collapsed.",
+      "moves": {"EUR": -20, "GBP": -30, "JPY": 15, "CNY": 0, "CHF": -8, "CAD": -22, "AUD": -35, "INR": -20, "BRL": -40, "MXN": -35, "KRW": -40}
+    },
+    {
+      "id": "taper-2013", "name": "Taper Tantrum", "period": "May – Aug 2013", "rate_bps": 100,
+      "description": "Fed signals QE tapering; 'Fragile Five' currencies sell off as US yields jump.",
+      "moves": {"EUR": 2, "GBP": 1, "JPY": -3, "CNY": 1, "CHF": 2, "CAD": -3, "AUD": -12, "INR": -18, "BRL": -16, "MXN": -6, "KRW": -3}
+    },
+    {
+      "id": "snb-2015", "name": "SNB Removes EUR/CHF Floor", "period": "15 Jan 2015", "rate_bps": 0,
+      "description": "The Swiss National Bank abandons its 1.20 peg; the franc jumps ~20% in minutes.",
+      "moves": {"EUR": -2, "GBP": -1, "JPY": 1, "CNY": 0, "CHF": 18, "CAD": -1, "AUD": -1, "INR": 0, "BRL": -1, "MXN": -1, "KRW": 0}
+    },
+    {
+      "id": "brexit-2016", "name": "Brexit Referendum", "period": "Jun – Oct 2016", "rate_bps": -25,
+      "description": "The UK votes to leave the EU; sterling falls to a 31-year low.",
+      "moves": {"EUR": -3, "GBP": -18, "JPY": 6, "CNY": -2, "CHF": -1, "CAD": -2, "AUD": 1, "INR": 0, "BRL": 4, "MXN": -4, "KRW": 2}
+    },
+    {
+      "id": "em-2018", "name": "EM & Trade-War Selloff", "period": "Apr – Oct 2018", "rate_bps": 75,
+      "description": "Fed hikes plus US–China tariffs trigger broad EM weakness (lira, peso, real, rupee).",
+      "moves": {"EUR": -7, "GBP": -7, "JPY": -4, "CNY": -9, "CHF": -3, "CAD": -2, "AUD": -9, "INR": -11, "BRL": -15, "MXN": -6, "KRW": -6}
+    },
+    {
+      "id": "covid-2020", "name": "COVID-19 Dash for Cash", "period": "Feb – Mar 2020", "rate_bps": -150,
+      "description": "Global scramble for dollar liquidity; commodity and EM currencies plunge.",
+      "moves": {"EUR": -3, "GBP": -9, "JPY": 1, "CNY": -2, "CHF": 1, "CAD": -8, "AUD": -14, "INR": -5, "BRL": -20, "MXN": -22, "KRW": -6}
+    },
+    {
+      "id": "kingdollar-2022", "name": "King Dollar 2022", "period": "Jan – Oct 2022", "rate_bps": 375,
+      "description": "Aggressive Fed hiking sends the dollar index to a 20-year high; yen and sterling slide.",
+      "moves": {"EUR": -15, "GBP": -18, "JPY": -24, "CNY": -12, "CHF": -8, "CAD": -9, "AUD": -14, "INR": -10, "BRL": 3, "MXN": 2, "KRW": -18}
+    },
+    {
+      "id": "dollar-slide-2025", "name": "Dollar Slide 2025", "period": "Jan – Jun 2025", "rate_bps": -50,
+      "description": "Tariff uncertainty and diversification away from USD assets weaken the dollar broadly.",
+      "moves": {"EUR": 13, "GBP": 9, "JPY": 9, "CNY": 2, "CHF": 13, "CAD": 6, "AUD": 6, "INR": 0, "BRL": 13, "MXN": 9, "KRW": 9}
+    }
+  ]
+}

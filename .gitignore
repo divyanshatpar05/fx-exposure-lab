@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/app/data/market_cache.json
+.DS_Store

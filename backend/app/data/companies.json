@@ -1,0 +1,113 @@
+{
+  "_note": "Illustrative profiles approximated from public 10-K geographic segment disclosures (FY2024-25). Currency mixes are modeling assumptions, not reported figures. Amounts in USD billions; shares in billions.",
+  "companies": [
+    {
+      "ticker": "AAPL", "name": "Apple", "sector": "Technology Hardware",
+      "blurb": "Prices in local currency worldwide while most component and assembly costs are contracted in USD.",
+      "revenue": 391.0, "op_margin": 0.31, "tax_rate": 0.16,
+      "debt": 97.0, "floating_share": 0.10, "refi_share": 0.10, "avg_rate": 0.035, "net_debt": -30.0,
+      "fcf": 108.0, "shares": 15.0, "wacc": 0.085, "growth": 0.03,
+      "revenue_mix": {"USD": 0.42, "EUR": 0.20, "GBP": 0.04, "JPY": 0.07, "CNY": 0.17, "CHF": 0.01, "CAD": 0.02, "AUD": 0.02, "INR": 0.02, "BRL": 0.01, "MXN": 0.01, "KRW": 0.01},
+      "cost_mix": {"USD": 0.70, "EUR": 0.06, "GBP": 0.01, "JPY": 0.02, "CNY": 0.15, "CAD": 0.01, "INR": 0.03, "KRW": 0.02}
+    },
+    {
+      "ticker": "MSFT", "name": "Microsoft", "sector": "Software & Cloud",
+      "blurb": "Global cloud and licensing revenue with an engineering base concentrated in the US and India.",
+      "revenue": 245.0, "op_margin": 0.45, "tax_rate": 0.18,
+      "debt": 45.0, "floating_share": 0.05, "refi_share": 0.08, "avg_rate": 0.03, "net_debt": -30.0,
+      "fcf": 74.0, "shares": 7.43, "wacc": 0.085, "growth": 0.035,
+      "revenue_mix": {"USD": 0.54, "EUR": 0.17, "GBP": 0.06, "JPY": 0.05, "CNY": 0.02, "CHF": 0.01, "CAD": 0.03, "AUD": 0.03, "INR": 0.03, "BRL": 0.02, "MXN": 0.02, "KRW": 0.02},
+      "cost_mix": {"USD": 0.75, "EUR": 0.08, "GBP": 0.03, "JPY": 0.02, "CNY": 0.03, "CAD": 0.02, "AUD": 0.01, "INR": 0.06}
+    },
+    {
+      "ticker": "NKE", "name": "Nike", "sector": "Apparel & Footwear",
+      "blurb": "Classic FX case study: product is sourced in USD but ~57% of revenue is earned in foreign currencies.",
+      "revenue": 51.0, "op_margin": 0.11, "tax_rate": 0.17,
+      "debt": 8.0, "floating_share": 0.05, "refi_share": 0.12, "avg_rate": 0.035, "net_debt": -1.0,
+      "fcf": 5.0, "shares": 1.48, "wacc": 0.085, "growth": 0.03,
+      "revenue_mix": {"USD": 0.43, "EUR": 0.26, "GBP": 0.04, "JPY": 0.03, "CNY": 0.14, "CHF": 0.01, "CAD": 0.03, "AUD": 0.02, "BRL": 0.01, "MXN": 0.02, "KRW": 0.01},
+      "cost_mix": {"USD": 0.78, "EUR": 0.10, "GBP": 0.02, "JPY": 0.01, "CNY": 0.06, "CAD": 0.01, "BRL": 0.01, "MXN": 0.01}
+    },
+    {
+      "ticker": "KO", "name": "Coca-Cola", "sector": "Beverages",
+      "blurb": "Sells concentrate in nearly every country; heavy emerging-market exposure, partly offset by local bottling costs.",
+      "revenue": 47.0, "op_margin": 0.29, "tax_rate": 0.19,
+      "debt": 45.0, "floating_share": 0.15, "refi_share": 0.10, "avg_rate": 0.03, "net_debt": 32.0,
+      "fcf": 10.0, "shares": 4.31, "wacc": 0.07, "growth": 0.03,
+      "revenue_mix": {"USD": 0.42, "EUR": 0.16, "GBP": 0.03, "JPY": 0.08, "CNY": 0.04, "CHF": 0.01, "CAD": 0.02, "AUD": 0.02, "INR": 0.05, "BRL": 0.06, "MXN": 0.10, "KRW": 0.01},
+      "cost_mix": {"USD": 0.52, "EUR": 0.12, "GBP": 0.02, "JPY": 0.06, "CNY": 0.03, "CHF": 0.01, "CAD": 0.02, "AUD": 0.02, "INR": 0.04, "BRL": 0.05, "MXN": 0.10, "KRW": 0.01}
+    },
+    {
+      "ticker": "MCD", "name": "McDonald's", "sector": "Restaurants",
+      "blurb": "Franchise royalties earned in local currency across Europe, Australia and Canada.",
+      "revenue": 26.0, "op_margin": 0.45, "tax_rate": 0.20,
+      "debt": 40.0, "floating_share": 0.10, "refi_share": 0.10, "avg_rate": 0.038, "net_debt": 39.0,
+      "fcf": 7.3, "shares": 0.715, "wacc": 0.07, "growth": 0.03,
+      "revenue_mix": {"USD": 0.44, "EUR": 0.22, "GBP": 0.08, "JPY": 0.03, "CNY": 0.02, "CHF": 0.01, "CAD": 0.05, "AUD": 0.07, "INR": 0.01, "BRL": 0.04, "MXN": 0.02, "KRW": 0.01},
+      "cost_mix": {"USD": 0.55, "EUR": 0.17, "GBP": 0.07, "JPY": 0.02, "CNY": 0.01, "CHF": 0.01, "CAD": 0.05, "AUD": 0.06, "INR": 0.01, "BRL": 0.02, "MXN": 0.02, "KRW": 0.01}
+    },
+    {
+      "ticker": "PG", "name": "Procter & Gamble", "sector": "Household Products",
+      "blurb": "Manufactures largely in-region, giving it a strong natural hedge on most of its foreign sales.",
+      "revenue": 84.0, "op_margin": 0.24, "tax_rate": 0.20,
+      "debt": 33.0, "floating_share": 0.20, "refi_share": 0.10, "avg_rate": 0.03, "net_debt": 24.0,
+      "fcf": 16.0, "shares": 2.35, "wacc": 0.07, "growth": 0.03,
+      "revenue_mix": {"USD": 0.50, "EUR": 0.18, "GBP": 0.04, "JPY": 0.03, "CNY": 0.08, "CHF": 0.01, "CAD": 0.03, "AUD": 0.02, "INR": 0.03, "BRL": 0.03, "MXN": 0.04, "KRW": 0.01},
+      "cost_mix": {"USD": 0.55, "EUR": 0.16, "GBP": 0.03, "JPY": 0.02, "CNY": 0.08, "CHF": 0.01, "CAD": 0.02, "AUD": 0.02, "INR": 0.03, "BRL": 0.03, "MXN": 0.04, "KRW": 0.01}
+    },
+    {
+      "ticker": "CAT", "name": "Caterpillar", "sector": "Industrial Machinery",
+      "blurb": "US-built equipment sold into commodity economies — Australia, Brazil and Canada matter.",
+      "revenue": 64.0, "op_margin": 0.20, "tax_rate": 0.22,
+      "debt": 38.0, "floating_share": 0.35, "refi_share": 0.15, "avg_rate": 0.04, "net_debt": 31.0,
+      "fcf": 9.5, "shares": 0.48, "wacc": 0.085, "growth": 0.03,
+      "revenue_mix": {"USD": 0.48, "EUR": 0.14, "GBP": 0.04, "JPY": 0.03, "CNY": 0.04, "CHF": 0.01, "CAD": 0.05, "AUD": 0.08, "INR": 0.03, "BRL": 0.05, "MXN": 0.04, "KRW": 0.01},
+      "cost_mix": {"USD": 0.64, "EUR": 0.10, "GBP": 0.05, "JPY": 0.03, "CNY": 0.04, "CHF": 0.01, "CAD": 0.02, "AUD": 0.03, "INR": 0.03, "BRL": 0.03, "MXN": 0.02}
+    },
+    {
+      "ticker": "NFLX", "name": "Netflix", "sector": "Streaming Media",
+      "blurb": "Subscriptions billed in local currency; content spend is still mostly in USD.",
+      "revenue": 39.0, "op_margin": 0.27, "tax_rate": 0.13,
+      "debt": 15.0, "floating_share": 0.0, "refi_share": 0.10, "avg_rate": 0.05, "net_debt": 6.0,
+      "fcf": 7.0, "shares": 0.43, "wacc": 0.09, "growth": 0.04,
+      "revenue_mix": {"USD": 0.52, "EUR": 0.17, "GBP": 0.06, "JPY": 0.03, "CHF": 0.01, "CAD": 0.04, "AUD": 0.03, "INR": 0.02, "BRL": 0.05, "MXN": 0.04, "KRW": 0.03},
+      "cost_mix": {"USD": 0.74, "EUR": 0.08, "GBP": 0.05, "JPY": 0.02, "CAD": 0.03, "AUD": 0.01, "INR": 0.02, "BRL": 0.02, "MXN": 0.01, "KRW": 0.02}
+    },
+    {
+      "ticker": "TSLA", "name": "Tesla", "sector": "Automobiles",
+      "blurb": "Gigafactories in Shanghai and Berlin localize a large share of costs — thin margins amplify FX swings.",
+      "revenue": 97.0, "op_margin": 0.07, "tax_rate": 0.20,
+      "debt": 7.5, "floating_share": 0.30, "refi_share": 0.15, "avg_rate": 0.045, "net_debt": -29.0,
+      "fcf": 3.6, "shares": 3.5, "wacc": 0.10, "growth": 0.05,
+      "revenue_mix": {"USD": 0.52, "EUR": 0.14, "GBP": 0.02, "JPY": 0.01, "CNY": 0.21, "CHF": 0.01, "CAD": 0.03, "AUD": 0.02, "MXN": 0.01, "KRW": 0.03},
+      "cost_mix": {"USD": 0.55, "EUR": 0.12, "JPY": 0.01, "CNY": 0.30, "KRW": 0.02}
+    },
+    {
+      "ticker": "BKNG", "name": "Booking Holdings", "sector": "Online Travel",
+      "blurb": "Europe-centric travel marketplace — the most euro-sensitive large-cap US company.",
+      "revenue": 24.0, "op_margin": 0.33, "tax_rate": 0.20,
+      "debt": 17.0, "floating_share": 0.0, "refi_share": 0.12, "avg_rate": 0.03, "net_debt": 1.0,
+      "fcf": 8.0, "shares": 0.033, "wacc": 0.09, "growth": 0.04,
+      "revenue_mix": {"USD": 0.30, "EUR": 0.45, "GBP": 0.08, "JPY": 0.03, "CNY": 0.01, "CHF": 0.02, "CAD": 0.02, "AUD": 0.03, "INR": 0.01, "BRL": 0.02, "MXN": 0.02, "KRW": 0.01},
+      "cost_mix": {"USD": 0.45, "EUR": 0.35, "GBP": 0.07, "JPY": 0.02, "CNY": 0.01, "CHF": 0.03, "CAD": 0.01, "AUD": 0.02, "INR": 0.02, "BRL": 0.01, "MXN": 0.01}
+    },
+    {
+      "ticker": "MDLZ", "name": "Mondelez", "sector": "Packaged Foods",
+      "blurb": "Over 70% of sales outside the US with deep emerging-market roots and largely local production.",
+      "revenue": 36.0, "op_margin": 0.16, "tax_rate": 0.22,
+      "debt": 21.0, "floating_share": 0.20, "refi_share": 0.12, "avg_rate": 0.035, "net_debt": 19.0,
+      "fcf": 3.5, "shares": 1.34, "wacc": 0.07, "growth": 0.03,
+      "revenue_mix": {"USD": 0.32, "EUR": 0.32, "GBP": 0.08, "JPY": 0.02, "CNY": 0.04, "CHF": 0.01, "CAD": 0.03, "AUD": 0.04, "INR": 0.04, "BRL": 0.05, "MXN": 0.04, "KRW": 0.01},
+      "cost_mix": {"USD": 0.33, "EUR": 0.30, "GBP": 0.07, "JPY": 0.02, "CNY": 0.04, "CHF": 0.03, "CAD": 0.03, "AUD": 0.04, "INR": 0.04, "BRL": 0.05, "MXN": 0.04, "KRW": 0.01}
+    },
+    {
+      "ticker": "PM", "name": "Philip Morris Intl", "sector": "Tobacco",
+      "blurb": "US-listed but almost entirely non-US: euro, yen and Swiss-franc cost base drive results.",
+      "revenue": 38.0, "op_margin": 0.38, "tax_rate": 0.22,
+      "debt": 48.0, "floating_share": 0.10, "refi_share": 0.12, "avg_rate": 0.04, "net_debt": 44.0,
+      "fcf": 10.0, "shares": 1.56, "wacc": 0.075, "growth": 0.025,
+      "revenue_mix": {"USD": 0.18, "EUR": 0.45, "GBP": 0.02, "JPY": 0.14, "CHF": 0.03, "CAD": 0.01, "AUD": 0.02, "INR": 0.02, "BRL": 0.04, "MXN": 0.04, "KRW": 0.05},
+      "cost_mix": {"USD": 0.20, "EUR": 0.42, "GBP": 0.02, "JPY": 0.08, "CNY": 0.02, "CHF": 0.10, "CAD": 0.01, "AUD": 0.01, "INR": 0.02, "BRL": 0.04, "MXN": 0.04, "KRW": 0.04}
+    }
+  ]
+}
