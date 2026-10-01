@@ -77,6 +77,12 @@ npm run dev                                   # http://localhost:5173 (proxies /
 
 Tests: `cd backend && pytest -q`
 
+### Deploy to Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/divyanshatpar05/fx-exposure-lab)
+
+`render.yaml` defines one free Docker web service. Render builds the React app, serves it from FastAPI and redeploys on every push to `main`.
+
 ### Single-container deploy
 
 ```bash

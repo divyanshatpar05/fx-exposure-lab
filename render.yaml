@@ -1,0 +1,10 @@
+# Render Blueprint: one free web service that builds the Dockerfile
+# (React frontend + FastAPI API in a single container).
+services:
+  - type: web
+    name: fx-exposure-lab
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true
