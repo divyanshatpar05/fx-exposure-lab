@@ -14,7 +14,7 @@ FX Exposure Lab is a full-stack analytics app. It models how currency moves, hed
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 [![CI](https://github.com/divyanshatpar05/fx-exposure-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/divyanshatpar05/fx-exposure-lab/actions/workflows/ci.yml)
 
-> _Add a screenshot or GIF here: `docs/demo.gif`_
+![FX Exposure Lab demo: scenario lab, hedging frontier, Monte Carlo, stress tests, rate surface](docs/demo.gif)
 
 ---
 
@@ -108,6 +108,10 @@ FastAPI serves the built frontend when `frontend/dist` exists, so it deploys as 
 | POST | `/api/stress` | Historical scenario replay |
 | POST | `/api/surface` | FX × rate valuation grid |
 | POST | `/api/compare` | Cross-company fragility metrics |
+
+### Re-recording the demo GIF
+
+With both dev servers running: `pip install playwright pillow && python scripts/record_demo.py`. It drives your installed Chrome through a scripted tour and writes `docs/demo.gif` and `docs/screenshot.png`.
 
 ## Data disclaimer
 
